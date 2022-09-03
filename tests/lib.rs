@@ -141,5 +141,22 @@ mod tests {
         assert_eq!(result, "0");
     }
 
+    #[test]
+    fn from_one_wei_to_eth() {
+        let result = Unit::Wei(1u128).to_eth_str().unwrap();
+        assert_eq!(result, "0.000000000000000001");
+    }
+
+    #[test]
+    fn from_one_gwei_to_eth() {
+        let result = Unit::Gwei(1u128).to_eth_str().unwrap();
+        assert_eq!(result, "0.000000001");
+    }
+
+    #[test]
+    fn from_one_eth_to_eth() {
+        let result = Unit::Ether(1u128).to_eth_str().unwrap();
+        assert_eq!(result, "1");
+    }
 
 }
