@@ -18,7 +18,7 @@ fn main() {
     println!("One ETH in Gwei is: {}", one_eth_in_gwei);
     // One ETH in Gwei is: 1000000000
 
-    
+
     // Convert 1 Gwei to Wei
     let one_gwei_in_wei = Unit::Gwei(1u128).to_wei_str().unwrap();
     println!("One Gwei in Wei is: {}", one_gwei_in_wei);

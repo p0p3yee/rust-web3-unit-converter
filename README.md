@@ -2,7 +2,7 @@
 
 Convert u128 to eth unit
 
-## Example
+## Getting Started
 
 ```rust
 use web3_unit_converter::Unit;
@@ -31,4 +31,17 @@ fn main() {
     println!("One Gwei in Wei is: {}", one_gwei_in_wei);
     // One Gwei in Wei is: 1000000000
 }
+```
+
+## Running the example
+
+```
+$ git clone https://github.com/p0p3yee/rust-web3-unit-converter
+$ cd rust-web3-unit-converter
+$ cargo run --example main
+
+One Wei in ETH is: 0.000000000000000001
+One Gwei in ETH is: 0.000000001
+One ETH in Gwei is: 1000000000
+One Gwei in Wei is: 1000000000
 ```
