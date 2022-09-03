@@ -5,7 +5,10 @@ edition = "2021"
 authors = ["p0p3yee"]
 license = "MIT"
 description = "Convert Eth unit (wei, gwei, eth) in rust"
+homepage = "https://github.com/p0p3yee/web3-unit-converter"
 repository = "https://github.com/p0p3yee/web3-unit-converter"
+readme = "README.md"
+keywords = ["web3", "ethereum"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
