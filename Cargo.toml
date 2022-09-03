@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["p0p3yee"]
 license = "MIT"
-description = "Convert u128 to Eth unit in rust"
+description = "Convert Eth unit (wei, gwei, eth) in rust"
 repository = "https://github.com/p0p3yee/web3-unit-converter"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
