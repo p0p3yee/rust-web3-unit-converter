@@ -4,6 +4,12 @@ Convert eth unit(wei, gwei, eth) in rust
 
 ## Getting Started
 
+Adding to your project
+
+`cargo add web3-unit-converter`
+
+## Example Code
+
 ```rust
 use web3_unit_converter::Unit;
 

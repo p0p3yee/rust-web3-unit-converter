@@ -2,7 +2,7 @@
 name = "web3-unit-converter"
 version = "0.1.0"
 edition = "2021"
-authors = ["p0p3yee"]
+authors = ["p0p3yee <devp0p3yee@gmail.com>"]
 license = "MIT"
 description = "Convert Eth unit (wei, gwei, eth) in rust"
 homepage = "https://github.com/p0p3yee/web3-unit-converter"
